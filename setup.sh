@@ -1,10 +1,10 @@
 #!/Bin/bash
 set -e
 echo -e "/e[32m
-##################################################
-#          Tanner S. Linux Watermark Setup       #
-#       Please run script on debian or ubuntu    #
-##################################################\e[0m"
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#           Tanner's Watermark Setup Script             #
+#       This Script only works on Ubuntu & Debian       #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #e[0m"
 
 #Make sure the user is sudo
 if [ "$EUID" -ne 0 ]; then
@@ -12,7 +12,7 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-#Check if user is bash
+#Check if user is sudo
 if [ "$EUID" -ne 0 ]; then
     echo "This script must be run with sudo."
     exit 1
