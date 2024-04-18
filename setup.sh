@@ -1,10 +1,10 @@
 #!/Bin/bash
 set -e
 echo -e "/e[32m
-###########################################
-#      Tanner S. Linux Watermark Setup    #
-#   Please run script on debian or ubuntu #
-###########################################\e[0m"
+##################################################
+#          Tanner S. Linux Watermark Setup       #
+#       Please run script on debian or ubuntu    #
+##################################################\e[0m"
 
 #Make sure the user is sudo
 if [ "$EUID" -ne 0 ]; then
